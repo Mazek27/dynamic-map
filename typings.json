@@ -1,0 +1,5 @@
+{
+  "globalDevDependencies": {
+    "react-datepicker": "registry:dt/react-datepicker#0.40.0+20170310232735"
+  }
+}

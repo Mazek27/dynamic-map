@@ -1,0 +1,30 @@
+$width : 230px;
+
+.LayerConfigurator {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display:flex;
+    flex-flow: column;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: $width;
+    min-width: $width;
+
+    h2 {
+        margin: 0px;
+        font-size: 1em;
+    }
+
+    > div {
+        padding: 5px 2px;            
+    }    
+
+    .DataRange {
+
+        .ControlContainer  {
+            margin-left: 25px;
+        }
+
+    } 
+}

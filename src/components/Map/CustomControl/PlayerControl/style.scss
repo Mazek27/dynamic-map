@@ -1,0 +1,29 @@
+.leaflet-control-player-toggle {
+  width: 44px;
+  height: 44px;
+  background: url("images/custom.svg") no-repeat 50% 50%;
+  display: block;
+}
+
+.leaflet-control-layers-toggle {
+  background: url("images/layers.svg");
+}
+
+.leaflet-bar {
+  div {
+    .leaflet-control-player-toggle{
+
+    }
+  }
+}
+
+.leaflet-control-player-expanded .MapControl{
+  display: block;
+}
+
+.leaflet-control-player {
+  border: 2px solid rgba(0,0,0,0.2);
+  background-clip: padding-box;
+  background: #fff;
+  border-radius: 5px;
+}

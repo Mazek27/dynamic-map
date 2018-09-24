@@ -1,0 +1,38 @@
+.appContent{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.leaflet-container {
+  background-color:rgba(255,0,0,0.0);
+  font-family: "Verdana" !important;
+}
+
+body{
+  margin: 0px;
+  font-family: Verdana !important;
+}
+
+legend {
+  background-color: #000;
+  color: #fff;
+  padding: 3px 6px;
+}
+
+.output {
+  font: 1rem 'Fira Sans', sans-serif;
+}
+
+.leaflet-control-layers-overlays{
+  display: flex;
+  flex-direction: column-reverse;
+
+}
+
+input {
+  margin: .3rem;
+}
+div.leaflet-control-layers-overlays label div{
+  display: flex;
+}

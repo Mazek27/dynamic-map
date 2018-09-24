@@ -1,0 +1,22 @@
+.PlayerBar {
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 5px;
+
+    input {
+        width: 40px;
+    }
+}
+
+.PlayerBar.playing {
+    background-color: red;
+    color:white;
+}
+
+.PlayerBar.hidden {
+    display: none;
+}
